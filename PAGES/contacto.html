@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Guerreiro</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/ac3c7794f3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="contacto">
+
+        <h1>CONTACTO</h1>
+
+        <div class="contenedor">
+            <form action="https://formsubmit.co/guerreiromartin@gmail.com" method="POST">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text" name="nombre">
+                <div id="validezNombre"></div>
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email">
+                <div id="validezEmail"></div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" cols="30" rows="10"></textarea>
+                <div id="validezMensaje"></div>
+                <button id="enviar" type="submit">Enviar</button>
+                <div id="confirmar"></div>
+
+                <input type="hidden" name="_next" value="https://mag0.github.io/MiPortafolio_2.0/">
+            </form>
+        </div>
+
+        <div class="boton"><a href="../index.html"><i class="fas fa-arrow-left"></i></a></div>
+    </section>
+
+    <script src="../JS/contacto.js"></script>
+</body>
+
+</html>
