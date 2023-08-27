@@ -160,13 +160,11 @@ header{
 
             a:hover{
                 color: #bb8c4a;
+                scale: 1.1;
             }
             img{
                 width: 2em;
                 height: 2em;
-            }
-            img:hover{
-                opacity: .8;
             }
         }       
     }
@@ -197,7 +195,7 @@ header{
         .proyecto{
             border: .2em solid #bb9f77;
             background-color: rgba(0, 0, 0, 0.685);
-            padding: 2em;
+            padding: 1.5em;
             margin: 1em;
             text-align: center;
             cursor: pointer;
@@ -581,23 +579,24 @@ header{
     
     .proyectos{
         h1{
-            font-size: 2em;
+            font-size: 2.5em;
+            text-align: center;
         }
         .contenedor{
             .proyecto{
-                padding: .8em;
+                padding: .9em;
                 margin: .2em;
                 .imagen{
                     img{
-                    width: 100px;
-                    height: 80px;
+                    width: 160px;
+                    height: 120px;
                     }
                 }
                 .etiquetas{
                     img{
                         margin-top: 0.5em;
-                        height: 1.4em;
-                        width: 1.4em;
+                        height: 1.8em;
+                        width: 1.8em;
                     }
                 }
             }
@@ -608,18 +607,19 @@ header{
     
     .herramientas{
         h1{
-            font-size: 2em;
+            font-size: 2.5em;
+            text-align: center;
         }
         .contenedor{
-            margin: 0 1.5em;
+            margin: 0 1.6em;
             li{
                img{
-                height: 3.4em;
-                width: 3.4em;
+                height: 4.24em;
+                width: 4.24em;
                }
 
                p{
-                font-size: .8em;
+                font-size: .92em;
                }
             }
             
@@ -655,4 +655,54 @@ header{
     }
 }
     
+}
+
+@media screen and (max-width: 375px) {
+
+        // PAGINA PROYECTOS
+    
+        .proyectos{
+            .contenedor{
+                .proyecto{
+                    padding: .5em;
+                    margin: .2em;
+                    .imagen{
+                        img{
+                        width: 150px;
+                        height: 130px;
+                        }
+                    }
+                    .etiquetas{
+                        img{
+                            margin-top: 0.3em;
+                            height: 1.5em;
+                            width: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+
+            // PAGINA HERRAMIENTAS
+    
+    .herramientas{
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+        }
+        .contenedor{
+            li{
+            img{
+                height: 4.9em;
+                width: 4.9em;
+            }
+
+            p{
+                font-size: 1em;
+            }
+            }
+            
+        }
+    }
+
 }
