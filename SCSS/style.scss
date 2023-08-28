@@ -184,6 +184,7 @@ header{
     h1{
         color: $color-principal;
         font-size: 4em;
+        text-align: center;
     }
 
         .contenedor{
@@ -246,6 +247,7 @@ header{
     h1{
         color: $color-principal;
         font-size: 4em;
+        text-align: center;
     }
 
     .contenedor{
@@ -256,6 +258,7 @@ header{
         list-style: none;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 1em;
         margin: 0 20em;
 
@@ -302,7 +305,7 @@ header{
 
     h1{
         color: $color-principal;
-        font-size: 4em;
+        font-size: 4em;text-align: center;
     }
 
     .enviado{
@@ -386,7 +389,7 @@ header{
 
 .herramientas{
     .contenedor{
-        margin: 0 8em; 
+        margin: 0 8em;
         li{
             p{
                 color: #724f1e;
